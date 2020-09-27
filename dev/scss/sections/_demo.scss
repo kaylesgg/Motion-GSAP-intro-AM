@@ -1,16 +1,17 @@
 /* =============
     Demo
 ============= */
-.triangle{
-    width: 0;
-    height: 0;
-    border: solid 100px;
+.box{
+    width: 300px;
+    height: 300px;
+}
+.dark-green{
+    background-color: #006400;
+}
+.med-green{
+    background-color: #008000;
 }
 
-.triangle-red{
-    border-color: transparent transparent red;
-}
-
-.triangle-blue{
-    border-color: transparent transparent blue;
+.light-green{
+    background-color: #00FF80;
 }
