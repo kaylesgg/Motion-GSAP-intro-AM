@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "EEE3DAB9-5195-4FEC-A011-E1E5CEA80C70"
+		"uuidString": "0AE7C118-56E6-4285-8C11-D179F538E479"
 		}
 	],
 "creatorBuild": "32001",
@@ -67,8 +67,8 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/index.html",
-		"oF": 0
+		"oAP": "/deploy/index.html",
+		"oF": 2
 		},
 	"/dev/js/demo.js": {
 		"bF": 0,
@@ -82,13 +82,13 @@
 		"tS": 0
 		},
 	"/dev/js/scripts.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
-		"oF": 0,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
@@ -243,8 +243,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/styles.css",
-		"oF": 0,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -309,10 +309,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 622922722.46258795,
+	"creationDate": 622561353.46572006,
 	"displayValue": "motion-GSAP-intro-AM",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_magenta",
+	"iconImageName": "brackets-verd",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -755,7 +755,7 @@
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -831,7 +831,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never'"
+			"optionString": "'never', {'enforceForClassMembers': true}"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -1779,7 +1779,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
+			"optionString": "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,
