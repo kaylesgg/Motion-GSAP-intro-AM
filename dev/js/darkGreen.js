@@ -4,7 +4,7 @@ import {gsap} from "gsap";
 export function darkGreenAnimation(){
 
     var tl = gsap.timeline();
-    tl.from(".dark-green",{duration:3,x:-400});
+    tl.to(".dark-green",{duration: 2, rotation: 360, x: 100, borderRadius:"50px"});
 
     return tl;
 }

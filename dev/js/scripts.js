@@ -14,6 +14,6 @@ const mainTL = gsap.timeline({paused:true});
       
         .add(medGreenAnimation())
         
-        .add(lightGreenAnimation(),"-=1")
+        .add(lightGreenAnimation())
         
         .play();
