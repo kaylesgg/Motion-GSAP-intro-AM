@@ -3,7 +3,7 @@ import {gsap} from "gsap";
 export function lightGreenAnimation(){
 
     var tl = gsap.timeline();
-    tl.from(".light-green",{duration:1,x:-800});
+    tl.to(".light-green",{duration: 3, rotation: 360, x: 500, borderRadius:"200px"});
 
     return tl;
 
